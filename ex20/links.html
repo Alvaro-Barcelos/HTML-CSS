@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Links</title>
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        a{
+            color: rgb(0, 0, 0);
+            text-decoration: none;
+        }
+        a:visited{
+            color:darkblue;
+        }
+        a:hover{
+            text-decoration: underline;
+        }
+        a:active{
+            color: rgb(0, 60, 255);
+        }
+        a::before{
+            content:'→';
+        }
+        a::after{
+            content:'←';
+        }
+    </style>
+</head>
+<body>
+    <h1>Personalizando links</h1>
+    <ul>
+        <li><a href="https://github.com/Alvaro-Barcelos" target="_blank">Repositório gitHub</a></li>
+        <li><a href="https://www.youtube.com/channel/UCe1zYnErsMlYniHDSDeOuOw" target="_blank">Canal do youtube</a></li>
+        <li> <a href="https://www.google.com.br/?gws_rd=ssl" target="_blank">Google</a></li>
+    </ul>
+</body>
+</html>
